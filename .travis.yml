@@ -1,9 +1,9 @@
 language: cpp
+dist: trusty
 sudo: required
 compiler:
   - g++
 os:
   - linux
-dist: xenial
 install: ./scripts/install_dependencies.sh
 script: ./scripts/build.sh
